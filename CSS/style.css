@@ -35,11 +35,11 @@ footer {
    
 }
 .col-logo {
-    flex: 0 0 50%;
+    grid-template-columns: 0 0 50%;
     text-align: left;
 }
 .col-form {
-    flex: 0 0 40%;
+    grid-template-columns: 0 0 40%;
     text-align: center;
 }
 .col-logo img {
@@ -79,7 +79,7 @@ footer {
 
 .col-form .form-container input:focus {
     border-color: #1877f2;
-    box-shadow: 0 0 0 2px #e7f3ff;
+    box-shadow: 0 0 0 2px #d2dae2;
 }
 .col-form .form-container .btn-login {
     background-color: #1877f2;
