@@ -23,15 +23,16 @@ footer {
 }
 
 .row {
-    display: flex;
+    display: grid;
+    grid-template-columns:500px 350px 0px;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     max-width: 1000px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 70%;
     transform: translate(-50%, -50%);
+   
 }
 .col-logo {
     flex: 0 0 50%;
